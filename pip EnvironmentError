@@ -1,0 +1,5 @@
+执行pip 命令出现Could not install packages due to an EnvironmentError
+错误的解决办法：
+今天想安装一个pythonds, 但是却出现了下图的错误:
+Could not install packages due to an EnvironmentError: [Errno 13] Permission denied: '/Library/Python/2.7/site-packages/certifi-2019.6.16.dist-info' Consider using the `--user` option or check the permissions.
+搜了一下，只需把命令改为pip install --user pythonds就可以了.
