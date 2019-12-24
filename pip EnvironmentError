@@ -1,3 +1,5 @@
+MAC下：
+
 执行pip 命令出现Could not install packages due to an EnvironmentError
 错误的解决办法：
 今天想安装一个pythonds, 但是却出现了下图的错误:
